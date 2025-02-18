@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Head from "next/head";
+import AdSense from "../../components/AdSense";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,18 +26,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-       <Head>
-        {/* Google AdSense Script */}
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-          data-ad-client="ca-pub-6526787864969506"
-          crossOrigin="anonymous"
-        ></script>
-
-        {/* Google AdSense Meta Tag */}
-        <meta name="google-adsense-account" content="ca-pub-6526787864969506" />
-      </Head>
+           <head>
+        <AdSense pId="ca-pub-6526787864969506"/>
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
