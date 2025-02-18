@@ -8,7 +8,7 @@ interface GoogleAdsProps {
   fullWidthResponsive?: boolean;
 }
 
-// Extend the Window interface to declare adsbygoogle
+// Extend the Window interface for adsbygoogle
 declare global {
   interface Window {
     adsbygoogle: any[];
