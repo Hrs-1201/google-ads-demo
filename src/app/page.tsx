@@ -18,14 +18,14 @@ export default function Home() {
               <AdBanner
                 dataAdFormat="auto"
                 dataFullWidthResponsive={true}
-                dataAdSlot="4284247248"
+                dataAdSlot="2669827144"
               />
             </div>
 
             <img
-              src="https://via.placeholder.com/1200x600"
+              src="/shoes.png"
               alt="Featured Image"
-              className="w-full h-64 object-cover rounded"
+              className="w-96 h-64 object-cover rounded"
             />
             <h2 className="text-4xl font-bold mt-4 mb-2">My First Blog Post</h2>
             <p className="text-gray-700 mb-4">
@@ -52,7 +52,7 @@ export default function Home() {
               <AdBanner
                 dataAdFormat="auto"
                 dataFullWidthResponsive={true}
-                dataAdSlot="4284247248"
+                dataAdSlot="2669827144"
               />
             </div>
             <div className="bg-gray-100 px-4 py-6 rounded">
@@ -79,7 +79,7 @@ export default function Home() {
               <AdBanner
                 dataAdFormat="auto"
                 dataFullWidthResponsive={true}
-                dataAdSlot="4284247248"
+                dataAdSlot="2669827144"
               />
             </div>
           </div>
