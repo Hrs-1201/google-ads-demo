@@ -18,7 +18,7 @@ export default function Home() {
               <AdBanner
                 dataAdFormat="auto"
                 dataFullWidthResponsive={true}
-                dataAdSlot="2669827144"
+                dataAdSlot="6009434216"
               />
             </div>
 
