@@ -1,3 +1,20 @@
+// import GoogleAd from "./components/GoogleAd";
+
+
+// export default function Home() {
+//   return (
+//     <div className="container mx-auto p-4">
+//       <h1 className="text-2xl font-bold">Welcome to My Next.js App</h1>
+
+//       {/* Display Google Ad */}
+//       <div className="border border-black">
+//       <GoogleAd adSlot="2669827144" />
+//       </div>
+//     </div>
+//   );
+// }
+
+
 import AdBanner from "../../components/AdBanner";
 
 export default function Home() {
@@ -75,7 +92,7 @@ export default function Home() {
                 </li>
               </ul>
             </div>
-            <div className="bg-black mt-5">
+            <div className="bg-transparent mt-5">
               <AdBanner
                 dataAdFormat="auto"
                 dataFullWidthResponsive={true}
